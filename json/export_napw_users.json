@@ -1,0 +1,1095 @@
+[{
+		"_id": {
+			"$oid": "59df7bdcfd24c632f400013a"
+		},
+		"_slugs": ["carolyne-rodrigues"],
+		"authentication_token": "3o1DacNspspn6txtYXFw",
+		"contact": {
+			"_id": {
+				"$oid": "59e4c184d68ac3282e000028"
+			},
+			"addresses": [{
+				"_id": {
+					"$oid": "59e4c184d68ac3282e000029"
+				},
+				"i": 99,
+				"rd": "",
+				"rd2": "",
+				"ct": "",
+				"st": "",
+				"cc": "US",
+				"zp": "00000"
+			}],
+			"phones": [{
+				"_id": {
+					"$oid": "59e4c184d68ac3282e00002a"
+				},
+				"i": 99,
+				"cc": "1",
+				"pn": "7052202106",
+				"ot": "home"
+			}],
+			"emails": [{
+				"_id": {
+					"$oid": "59e4c184d68ac3282e00002b"
+				},
+				"i": 99,
+				"ad": "choosewellnow@gmail.com"
+			}]
+		},
+		"created_at": {
+			"$date": "2017-10-16T09:26:12.375-0500"
+		},
+		"creator_api_id": {
+			"$oid": "5522edc8bdc0f62f45000001"
+		},
+		"domain_ids": [{
+			"$oid": "54011578661ef758ca000001"
+		}],
+		"email": "choosewellnow@gmail.com",
+		"encrypted_password": "$2a$10$fNBxRkaUf4G5XT1fRJNJbescYy4OTPKsnEhIS3wGdNPMsELs4RNxG",
+		"event_ids": [],
+		"experiences": [{
+				"_id": {
+					"$oid": "59e4c184d68ac3282e00002c"
+				},
+				"old_data": {},
+				"_type": "Experience",
+				"of": "work",
+				"or": "Isogenics",
+				"ti": "Lifestyle and Income Coach",
+				"ct": null,
+				"st": null,
+				"ci": "",
+				"fr": null,
+				"un": null,
+				"current": false,
+				"shards": [{
+					"_id": {
+						"$oid": "59e4c184d68ac3282e00002d"
+					},
+					"de": null
+				}]
+			},
+			{
+				"_id": {
+					"$oid": "59e4c184d68ac3282e00002e"
+				},
+				"_type": "Experience",
+				"of": "summary",
+				"old_data": {},
+				"profile_questionaire": {
+					"_id": {
+						"$oid": "59e4c184d68ac3282e000031"
+					}
+				},
+				"ti": "My name is Carolyne Rodrigues. My professional title is Lifestyle and Income Coach at Isogenics."
+			}
+		],
+		"external_ids": [{
+			"_id": {
+				"$oid": "59e4c184d68ac3282e00002f"
+			},
+			"data": {
+				"start_date": "2017-10-16",
+				"expire_date": "2018-10-16"
+			},
+			"key": "NAPW-1300204928",
+			"source": "napw"
+		}],
+		"featured": [],
+		"fn": "Carolyne",
+		"fnl": "carolyne",
+		"fw_cnt": {},
+		"group_deny": ["address",
+			"phone",
+			"email",
+			"website"
+		],
+		"in": "Coaching",
+		"inactive_alerts": [],
+		"is_active": true,
+		"is_confidential": false,
+		"linkedin_invited_contacts_ids": [],
+		"ln": "Rodrigues",
+		"lnl": "rodrigues",
+		"main_domain_id": {
+			"$oid": "54011578661ef758ca000001"
+		},
+		"max_education_level": null,
+		"old_data": {
+			"user": {
+				"email": "choosewellnow@gmail.com",
+				"first_name": "Carolyne",
+				"middle_initial": "",
+				"last_name": "Rodrigues",
+				"address": {
+					"road": "",
+					"road2": "",
+					"city": "",
+					"state": "",
+					"zip": "00000",
+					"country": "United States"
+				},
+				"phone": "7052202106",
+				"occupation": "Coaching",
+				"build_summary": "1",
+				"professional_experience": "",
+				"affiliations": "",
+				"charities": "",
+				"hobbies": "",
+				"education": [{
+					"school": "",
+					"degree": "",
+					"field_of_study": ""
+				}],
+				"jobs": [{
+					"company": "Isogenics",
+					"title": "Lifestyle and Income Coach"
+				}],
+				"roles": ["initial"],
+				"dsqr": {
+					"source": "napw"
+				},
+				"external_id": {
+					"source": "NAPW",
+					"key": "1300204928",
+					"start_date": "2017-10-16",
+					"expire_date": "2018-10-16"
+				}
+			}
+		},
+		"postal_code": "00000",
+		"press_access": false,
+		"privacy": {
+			"_id": {
+				"$oid": "59e4c184d68ac3282e000032"
+			},
+			"profile": true,
+			"name": true,
+			"picture": true,
+			"about_me": true,
+			"work_experience": true,
+			"work_experience_details": true,
+			"education": true,
+			"education_details": true,
+			"languages": true,
+			"groups": true,
+			"networks": true,
+			"skills": true,
+			"extras": false,
+			"contact": false,
+			"address": false,
+			"websites": false
+		},
+		"profile_updated_at": {
+			"$date": "2017-10-15T19:00:00.000-0500"
+		},
+		"random": 0.6417251079153424,
+		"role_ids": [{
+			"$oid": "54a1950c79c94092cf000001"
+		}],
+		"semcat_ids": [],
+		"show_uofp_rfi": false,
+		"sign_in_count": 0,
+		"signature": {},
+		"signature_text": "",
+		"signup_type": "api",
+		"sims": {},
+		"updated_at": {
+			"$date": "2017-10-16T09:26:12.468-0500"
+		},
+		"user_deny": ["address",
+			"phone",
+			"email",
+			"website"
+		],
+		"xp": "unknown"
+	}
+
+	,
+	{
+		"_id": {
+			"$oid": "59df7bdcfd24c632f400013b"
+		},
+		"_slugs": ["donna-carter-31"],
+		"authentication_token": "evyybWCjfHsKFmREDqjy",
+		"contact": {
+			"_id": {
+				"$oid": "59e4c0cf47b8dc32c4000115"
+			},
+			"addresses": [{
+				"_id": {
+					"$oid": "59e4c0cf47b8dc32c4000116"
+				},
+				"i": 99,
+				"rd": "",
+				"rd2": "",
+				"ct": "",
+				"st": "KY",
+				"cc": "US",
+				"zp": "40391"
+			}],
+			"phones": [{
+				"_id": {
+					"$oid": "59e4c0cf47b8dc32c4000117"
+				},
+				"i": 99,
+				"cc": "1",
+				"pn": "8569050356",
+				"ot": "home"
+			}],
+			"emails": [{
+				"_id": {
+					"$oid": "59e4c0cf47b8dc32c4000118"
+				},
+				"i": 99,
+				"ad": "futrmilnar@aol.com"
+			}]
+		},
+		"created_at": {
+			"$date": "2017-10-16T09:23:11.868-0500"
+		},
+		"creator_api_id": {
+			"$oid": "5522edc8bdc0f62f45000001"
+		},
+		"domain_ids": [{
+			"$oid": "54011578661ef758ca000001"
+		}],
+		"email": "futrmilnar@aol.com",
+		"encrypted_password": "$2a$10$2xBtmWPJpvgUqPcgb0QAH.fdzjK.O8fGGzOamOX9hbi5zaoivg46O",
+		"event_ids": [],
+		"experiences": [{
+				"_id": {
+					"$oid": "59e4c0cf47b8dc32c4000119"
+				},
+				"old_data": {},
+				"_type": "Experience",
+				"of": "work",
+				"or": "Creative Memories",
+				"ti": "Independent Advisor",
+				"ct": null,
+				"st": null,
+				"ci": "",
+				"fr": null,
+				"un": null,
+				"current": false,
+				"shards": [{
+					"_id": {
+						"$oid": "59e4c0cf47b8dc32c400011a"
+					},
+					"de": null
+				}]
+			},
+			{
+				"_id": {
+					"$oid": "59e4c0cf47b8dc32c400011b"
+				},
+				"_type": "Experience",
+				"of": "summary",
+				"old_data": {},
+				"profile_questionaire": {
+					"_id": {
+						"$oid": "59e4c0d047b8dc32c400011e"
+					}
+				},
+				"ti": "My name is Donna Carter. My professional title is Independent Advisor at Creative Memories."
+			}
+		],
+		"external_ids": [{
+			"_id": {
+				"$oid": "59e4c0cf47b8dc32c400011c"
+			},
+			"data": {
+				"start_date": "2017-10-16",
+				"expire_date": "2018-10-16"
+			},
+			"key": "NAPW-1300204927",
+			"source": "napw"
+		}],
+		"featured": [],
+		"fn": "Donna",
+		"fnl": "donna",
+		"fw_cnt": {},
+		"group_deny": ["address",
+			"phone",
+			"email",
+			"website"
+		],
+		"in": "Scrapbooking",
+		"inactive_alerts": [],
+		"is_active": true,
+		"is_confidential": false,
+		"linkedin_invited_contacts_ids": [],
+		"ln": "Carter",
+		"lnl": "carter",
+		"main_domain_id": {
+			"$oid": "54011578661ef758ca000001"
+		},
+		"max_education_level": null,
+		"old_data": {
+			"user": {
+				"email": "futrmilnar@aol.com",
+				"first_name": "Donna",
+				"middle_initial": "M",
+				"last_name": "Carter",
+				"address": {
+					"road": "",
+					"road2": "",
+					"city": "",
+					"state": "KY",
+					"zip": "40391",
+					"country": "United States"
+				},
+				"phone": "8569050356",
+				"occupation": "Scrapbooking",
+				"build_summary": "1",
+				"professional_experience": "",
+				"affiliations": "",
+				"charities": "",
+				"hobbies": "",
+				"education": [{
+					"school": "",
+					"degree": "",
+					"field_of_study": ""
+				}],
+				"jobs": [{
+					"company": "Creative Memories",
+					"title": "Independent Advisor"
+				}],
+				"roles": ["initial"],
+				"dsqr": {
+					"source": "napw"
+				},
+				"external_id": {
+					"source": "NAPW",
+					"key": "1300204927",
+					"start_date": "2017-10-16",
+					"expire_date": "2018-10-16"
+				}
+			}
+		},
+		"postal_code": "40391",
+		"press_access": false,
+		"privacy": {
+			"_id": {
+				"$oid": "59e4c0d047b8dc32c400011f"
+			},
+			"profile": true,
+			"name": true,
+			"picture": true,
+			"about_me": true,
+			"work_experience": true,
+			"work_experience_details": true,
+			"education": true,
+			"education_details": true,
+			"languages": true,
+			"groups": true,
+			"networks": true,
+			"skills": true,
+			"extras": false,
+			"contact": false,
+			"address": false,
+			"websites": false
+		},
+		"profile_updated_at": {
+			"$date": "2017-10-15T19:00:00.000-0500"
+		},
+		"random": 0.09938859567376546,
+		"role_ids": [{
+			"$oid": "54a1950c79c94092cf000001"
+		}],
+		"semcat_ids": [],
+		"show_uofp_rfi": false,
+		"sign_in_count": 0,
+		"signature": {},
+		"signature_text": "",
+		"signup_type": "api",
+		"sims": {},
+		"updated_at": {
+			"$date": "2017-10-16T09:23:12.050-0500"
+		},
+		"user_deny": ["address",
+			"phone",
+			"email",
+			"website"
+		],
+		"xp": "unknown"
+	}
+
+	,
+	{
+		"_id": {
+			"$oid": "59df7bdcfd24c632f400013c"
+		},
+		"_slugs": ["judith-thompson-11"],
+		"authentication_token": "VzZFRsuTrpwRPsYju1PE",
+		"contact": {
+			"_id": {
+				"$oid": "59e4c045d68ac329c8000007"
+			},
+			"addresses": [{
+				"_id": {
+					"$oid": "59e4c045d68ac329c8000008"
+				},
+				"i": 99,
+				"rd": "",
+				"rd2": "",
+				"ct": "",
+				"st": "",
+				"cc": "US",
+				"zp": "00000"
+			}],
+			"phones": [{
+				"_id": {
+					"$oid": "59e4c045d68ac329c8000009"
+				},
+				"i": 99,
+				"cc": "1",
+				"pn": "8729048173",
+				"ot": "home"
+			}],
+			"emails": [{
+				"_id": {
+					"$oid": "59e4c045d68ac329c800000a"
+				},
+				"i": 99,
+				"ad": "judiththompson5974@gmail.com"
+			}]
+		},
+		"created_at": {
+			"$date": "2017-10-16T09:20:53.669-0500"
+		},
+		"creator_api_id": {
+			"$oid": "5522edc8bdc0f62f45000001"
+		},
+		"domain_ids": [{
+			"$oid": "54011578661ef758ca000001"
+		}],
+		"email": "judiththompson5974@gmail.com",
+		"encrypted_password": "$2a$10$9cDGq74WcqIGVlk7nQCkO.LkwQIgJ6rOvjn7PQ.uooU8VDM4r2sSu",
+		"event_ids": [],
+		"experiences": [{
+				"_id": {
+					"$oid": "59e4c045d68ac329c800000b"
+				},
+				"old_data": {},
+				"_type": "Experience",
+				"of": "work",
+				"or": "Roman Catholic Archdiocese of Chicago",
+				"ti": "Educator",
+				"ct": null,
+				"st": null,
+				"ci": "",
+				"fr": null,
+				"un": null,
+				"current": false,
+				"shards": [{
+					"_id": {
+						"$oid": "59e4c045d68ac329c800000c"
+					},
+					"de": null
+				}]
+			},
+			{
+				"_id": {
+					"$oid": "59e4c045d68ac329c800000d"
+				},
+				"_type": "Experience",
+				"of": "summary",
+				"old_data": {},
+				"profile_questionaire": {
+					"_id": {
+						"$oid": "59e4c045d68ac329c8000010"
+					}
+				},
+				"ti": "My name is Judith Thompson. My professional title is Educator at Roman Catholic Archdiocese of Chicago."
+			}
+		],
+		"external_ids": [{
+			"_id": {
+				"$oid": "59e4c045d68ac329c800000e"
+			},
+			"data": {
+				"start_date": "2017-10-16",
+				"expire_date": "2018-10-16"
+			},
+			"key": "NAPW-1300204926",
+			"source": "napw"
+		}],
+		"featured": [],
+		"fn": "Judith",
+		"fnl": "judith",
+		"fw_cnt": {},
+		"group_deny": ["address",
+			"phone",
+			"email",
+			"website"
+		],
+		"inactive_alerts": [],
+		"is_active": true,
+		"is_confidential": false,
+		"linkedin_invited_contacts_ids": [],
+		"ln": "Thompson",
+		"lnl": "thompson",
+		"main_domain_id": {
+			"$oid": "54011578661ef758ca000001"
+		},
+		"max_education_level": null,
+		"old_data": {
+			"user": {
+				"email": "judiththompson5974@gmail.com",
+				"first_name": "Judith",
+				"middle_initial": "",
+				"last_name": "Thompson",
+				"address": {
+					"road": "",
+					"road2": "",
+					"city": "",
+					"state": "",
+					"zip": "00000",
+					"country": "United States"
+				},
+				"phone": "8729048173",
+				"occupation": "",
+				"build_summary": "1",
+				"professional_experience": "",
+				"affiliations": "",
+				"charities": "",
+				"hobbies": "",
+				"education": [{
+					"school": "",
+					"degree": "",
+					"field_of_study": ""
+				}],
+				"jobs": [{
+					"company": "Roman Catholic Archdiocese of Chicago",
+					"title": "Educator"
+				}],
+				"roles": ["initial"],
+				"dsqr": {
+					"source": "napw"
+				},
+				"external_id": {
+					"source": "NAPW",
+					"key": "1300204926",
+					"start_date": "2017-10-16",
+					"expire_date": "2018-10-16"
+				}
+			}
+		},
+		"postal_code": "00000",
+		"press_access": false,
+		"privacy": {
+			"_id": {
+				"$oid": "59e4c045d68ac329c8000011"
+			},
+			"profile": true,
+			"name": true,
+			"picture": true,
+			"about_me": true,
+			"work_experience": true,
+			"work_experience_details": true,
+			"education": true,
+			"education_details": true,
+			"languages": true,
+			"groups": true,
+			"networks": true,
+			"skills": true,
+			"extras": false,
+			"contact": false,
+			"address": false,
+			"websites": false
+		},
+		"profile_updated_at": {
+			"$date": "2017-10-15T19:00:00.000-0500"
+		},
+		"random": 0.2741332989686024,
+		"role_ids": [{
+			"$oid": "54a1950c79c94092cf000001"
+		}],
+		"semcat_ids": [],
+		"show_uofp_rfi": false,
+		"sign_in_count": 0,
+		"signature": {},
+		"signature_text": "",
+		"signup_type": "api",
+		"sims": {},
+		"updated_at": {
+			"$date": "2017-10-16T09:20:53.788-0500"
+		},
+		"user_deny": ["address",
+			"phone",
+			"email",
+			"website"
+		],
+		"xp": "unknown"
+	}
+
+	,
+	{
+		"_id": {
+			"$oid": "59df7bdcfd24c632f400013d"
+		},
+		"_slugs": ["noelle-gutierrez-1"],
+		"authentication_token": "qHzKTHTpiyYMx3YZo1qD",
+		"contact": {
+			"_id": {
+				"$oid": "59e4be8247b8dc32c40000aa"
+			},
+			"addresses": [{
+				"_id": {
+					"$oid": "59e4c02c47b8dc48b90000bb"
+				},
+				"i": 99,
+				"rd": "",
+				"rd2": "",
+				"ct": "",
+				"st": "MD",
+				"cc": "US",
+				"zp": "00000"
+			}],
+			"phones": [{
+				"_id": {
+					"$oid": "59e4be8247b8dc32c40000ac"
+				},
+				"i": 99,
+				"cc": "1",
+				"pn": "4435800364",
+				"ot": "home"
+			}],
+			"emails": [{
+				"_id": {
+					"$oid": "59e4be8247b8dc32c40000ad"
+				},
+				"i": 99,
+				"ad": "noellegutierrez@kw.com"
+			}]
+		},
+		"created_at": {
+			"$date": "2017-10-16T09:13:22.153-0500"
+		},
+		"creator_api_id": {
+			"$oid": "5522edc8bdc0f62f45000001"
+		},
+		"domain_ids": [{
+			"$oid": "54011578661ef758ca000001"
+		}],
+		"email": "noellegutierrez@kw.com",
+		"encrypted_password": "$2a$10$QaRmKvapCp1XE./2viH5sO44sHCzcUYGYT5zDEuS2yCORZZ8PQmsi",
+		"event_ids": [],
+		"experiences": [{
+				"_id": {
+					"$oid": "59e4c02c47b8dc48b90000bc"
+				},
+				"_type": "Experience",
+				"ci": "",
+				"created_at": {
+					"$date": "2017-10-16T09:20:28.811-0500"
+				},
+				"ct": null,
+				"current": false,
+				"fr": null,
+				"of": "work",
+				"old_data": {},
+				"or": "Keller Williams Excellence",
+				"shards": [{
+					"_id": {
+						"$oid": "59e4c02c47b8dc48b90000bd"
+					},
+					"de": null
+				}],
+				"st": null,
+				"ti": "Realtor",
+				"un": null,
+				"updated_at": {
+					"$date": "2017-10-16T09:20:28.811-0500"
+				}
+			},
+			{
+				"_id": {
+					"$oid": "59e4c02c47b8dc48b90000be"
+				},
+				"_type": "Experience",
+				"created_at": {
+					"$date": "2017-10-16T09:20:28.922-0500"
+				},
+				"of": "summary",
+				"old_data": {},
+				"ti": "My name is Noelle Gutierrez. My professional title is Realtor at Keller Williams Excellence.",
+				"updated_at": {
+					"$date": "2017-10-16T09:20:28.922-0500"
+				}
+			}
+		],
+		"external_ids": [{
+			"_id": {
+				"$oid": "59e4be8247b8dc32c40000b1"
+			},
+			"data": {
+				"start_date": "2017-10-16",
+				"expire_date": "2018-10-16"
+			},
+			"key": "NAPW-1300204925",
+			"source": "napw"
+		}],
+		"featured": [],
+		"fn": "Noelle",
+		"fnl": "noelle",
+		"fw_cnt": {},
+		"group_deny": ["address",
+			"phone",
+			"email",
+			"website"
+		],
+		"inactive_alerts": [],
+		"is_active": true,
+		"is_confidential": false,
+		"linkedin_invited_contacts_ids": [],
+		"ln": "Gutierrez",
+		"lnl": "gutierrez",
+		"main_domain_id": {
+			"$oid": "54011578661ef758ca000001"
+		},
+		"max_education_level": null,
+		"old_data": {
+			"user": {
+				"email": "noellegutierrez@kw.com",
+				"first_name": "Noelle",
+				"middle_initial": "",
+				"last_name": "Gutierrez",
+				"address": {
+					"road": "",
+					"road2": "",
+					"city": "",
+					"state": "MD",
+					"zip": "00000",
+					"country": "United States"
+				},
+				"phone": "4435800364",
+				"occupation": "",
+				"build_summary": "1",
+				"professional_experience": "",
+				"affiliations": "",
+				"charities": "",
+				"hobbies": "",
+				"education": [{
+					"school": "",
+					"degree": "",
+					"field_of_study": ""
+				}],
+				"jobs": [{
+					"company": "Keller Williams Excellence",
+					"title": "Realtor"
+				}],
+				"roles": ["initial"],
+				"dsqr": {
+					"source": "napw"
+				},
+				"external_id": {
+					"source": "NAPW",
+					"key": "1300204925",
+					"start_date": "2017-10-16",
+					"expire_date": "2018-10-16"
+				}
+			},
+			"user-update-2017-10-16T14:20:29+00:00": {
+				"email": "noellegutierrez@kw.com",
+				"first_name": "Noelle",
+				"middle_initial": "",
+				"last_name": "Gutierrez",
+				"address": {
+					"road": "",
+					"road2": "",
+					"city": "",
+					"state": "MD",
+					"zip": "00000",
+					"country": "United States"
+				},
+				"phone": "4435800364",
+				"occupation": "",
+				"build_summary": "1",
+				"professional_experience": "",
+				"affiliations": "",
+				"charities": "",
+				"hobbies": "",
+				"education": [{
+					"school": "",
+					"degree": "",
+					"field_of_study": ""
+				}],
+				"jobs": [{
+					"company": "Keller Williams Excellence",
+					"title": "Realtor"
+				}],
+				"roles": ["initial"],
+				"dsqr": {
+					"source": "napw"
+				},
+				"external_id": {
+					"source": "NAPW",
+					"key": "1300204925",
+					"start_date": "2017-10-16",
+					"expire_date": "2018-10-16"
+				}
+			}
+		},
+		"password": "G5tk7g1L",
+		"postal_code": "00000",
+		"press_access": false,
+		"privacy": {
+			"_id": {
+				"$oid": "59e4be8247b8dc32c40000b4"
+			},
+			"profile": true,
+			"name": true,
+			"picture": true,
+			"about_me": true,
+			"work_experience": true,
+			"work_experience_details": true,
+			"education": true,
+			"education_details": true,
+			"languages": true,
+			"groups": true,
+			"networks": true,
+			"skills": true,
+			"extras": false,
+			"contact": false,
+			"address": false,
+			"websites": false
+		},
+		"profile_updated_at": {
+			"$date": "2017-10-15T19:00:00.000-0500"
+		},
+		"random": 0.4869473144806354,
+		"role_ids": [{
+			"$oid": "54a1950c79c94092cf000001"
+		}],
+		"semcat_ids": [],
+		"show_uofp_rfi": false,
+		"sign_in_count": 0,
+		"signature": {},
+		"signature_text": "",
+		"signup_type": "api",
+		"sims": {},
+		"updated_at": {
+			"$date": "2017-10-16T09:20:29.340-0500"
+		},
+		"user_deny": ["address",
+			"phone",
+			"email",
+			"website"
+		],
+		"xp": "unknown"
+	}
+
+	,
+	{
+		"_id": {
+			"$oid": "59df7bdcfd24c632f400013e"
+		},
+		"_slugs": ["drashana-alston"],
+		"authentication_token": "Gz5Ln3hyHdgbpzP9LzLL",
+		"contact": {
+			"_id": {
+				"$oid": "59e4bd12d68ac356d40000e2"
+			},
+			"addresses": [{
+				"_id": {
+					"$oid": "59e4bd12d68ac356d40000e3"
+				},
+				"i": 99,
+				"rd": "1147 Georgetown Road",
+				"rd2": "Apt. 204",
+				"ct": "Norfolk",
+				"st": "VA",
+				"cc": "US",
+				"zp": "23502"
+			}],
+			"phones": [{
+				"_id": {
+					"$oid": "59e4bd12d68ac356d40000e4"
+				},
+				"i": 99,
+				"cc": "1",
+				"pn": "7579554976",
+				"ot": "home"
+			}],
+			"emails": [{
+				"_id": {
+					"$oid": "59e4bd12d68ac356d40000e5"
+				},
+				"i": 99,
+				"ad": "drashana.alston@gmail.com"
+			}]
+		},
+		"created_at": {
+			"$date": "2017-10-16T09:07:14.814-0500"
+		},
+		"creator_api_id": {
+			"$oid": "5522edc8bdc0f62f45000001"
+		},
+		"domain_ids": [{
+			"$oid": "54011578661ef758ca000001"
+		}],
+		"email": "drashana.alston@gmail.com",
+		"encrypted_password": "$2a$10$q6mfCDVrazxNbmDFfI06b.zKg.vghD6ZNphUCRIqcqjaUoEqkqi4O",
+		"event_ids": [],
+		"experiences": [{
+				"_id": {
+					"$oid": "59e4bd12d68ac356d40000e6"
+				},
+				"old_data": {},
+				"_type": "Experience",
+				"of": "work",
+				"or": "Kalmar Global",
+				"ti": "Project Analyst",
+				"ct": null,
+				"st": null,
+				"ci": "",
+				"fr": null,
+				"un": null,
+				"current": false,
+				"shards": [{
+					"_id": {
+						"$oid": "59e4bd12d68ac356d40000e7"
+					},
+					"de": null
+				}]
+			},
+			{
+				"_id": {
+					"$oid": "59e4bd12d68ac356d40000e8"
+				},
+				"_type": "Experience",
+				"of": "summary",
+				"old_data": {},
+				"profile_questionaire": {
+					"_id": {
+						"$oid": "59e4bd12d68ac356d40000eb"
+					}
+				},
+				"ti": "My name is Drashana Alston. My professional title is Project Analyst at Kalmar Global."
+			}
+		],
+		"external_ids": [{
+			"_id": {
+				"$oid": "59e4bd12d68ac356d40000e9"
+			},
+			"data": {
+				"start_date": "2017-10-16",
+				"expire_date": "2018-10-16"
+			},
+			"key": "NAPW-1300204924",
+			"source": "napw"
+		}],
+		"featured": [],
+		"fn": "Drashana",
+		"fnl": "drashana",
+		"fw_cnt": {},
+		"group_deny": ["address",
+			"phone",
+			"email",
+			"website"
+		],
+		"inactive_alerts": [],
+		"is_active": true,
+		"is_confidential": false,
+		"linkedin_invited_contacts_ids": [],
+		"ln": "Alston",
+		"lnl": "alston",
+		"main_domain_id": {
+			"$oid": "54011578661ef758ca000001"
+		},
+		"max_education_level": null,
+		"old_data": {
+			"user": {
+				"email": "drashana.alston@gmail.com",
+				"first_name": "Drashana",
+				"middle_initial": "",
+				"last_name": "Alston",
+				"address": {
+					"road": "1147 Georgetown Road",
+					"road2": "Apt. 204",
+					"city": "Norfolk",
+					"state": "VA",
+					"zip": "23502",
+					"country": "United States"
+				},
+				"phone": "7579554976",
+				"occupation": "",
+				"build_summary": "1",
+				"professional_experience": "",
+				"affiliations": "",
+				"charities": "",
+				"hobbies": "",
+				"education": [{
+					"school": "",
+					"degree": "",
+					"field_of_study": ""
+				}],
+				"jobs": [{
+					"company": "Kalmar Global",
+					"title": "Project Analyst"
+				}],
+				"roles": ["initial"],
+				"dsqr": {
+					"source": "napw"
+				},
+				"external_id": {
+					"source": "NAPW",
+					"key": "1300204924",
+					"start_date": "2017-10-16",
+					"expire_date": "2018-10-16"
+				}
+			}
+		},
+		"postal_code": "23502",
+		"press_access": false,
+		"privacy": {
+			"_id": {
+				"$oid": "59e4bd12d68ac356d40000ec"
+			},
+			"profile": true,
+			"name": true,
+			"picture": true,
+			"about_me": true,
+			"work_experience": true,
+			"work_experience_details": true,
+			"education": true,
+			"education_details": true,
+			"languages": true,
+			"groups": true,
+			"networks": true,
+			"skills": true,
+			"extras": false,
+			"contact": false,
+			"address": false,
+			"websites": false
+		},
+		"profile_updated_at": {
+			"$date": "2017-10-15T19:00:00.000-0500"
+		},
+		"random": 0.2684726281038269,
+		"role_ids": [{
+			"$oid": "54a1950c79c94092cf000001"
+		}],
+		"semcat_ids": [],
+		"show_uofp_rfi": false,
+		"sign_in_count": 0,
+		"signature": {},
+		"signature_text": "",
+		"signup_type": "api",
+		"sims": {},
+		"updated_at": {
+			"$date": "2017-10-16T09:07:14.927-0500"
+		},
+		"user_deny": ["address",
+			"phone",
+			"email",
+			"website"
+		],
+		"xp": "unknown"
+	}
+
+]

@@ -1,0 +1,534 @@
+[{
+		"_id": {
+			"$oid": "54dd189644a5cede55000865"
+		},
+		"_slugs": ["napw-chapter-presidents"],
+		"blocks": [{
+				"_id": {
+					"$oid": "54d9573ba91e142a5f000035"
+				},
+				"title": "Activity Wall",
+				"position": 0,
+				"_type": "Prodivnet::Groups::BlockActivityWall",
+				"updated_at": {
+					"$date": "2015-02-09T18:56:29.271-0600"
+				},
+				"created_at": {
+					"$date": "2015-02-09T18:56:29.271-0600"
+				}
+			},
+			{
+				"_id": {
+					"$oid": "54d9573ba91e142a5f000036"
+				},
+				"position": 1,
+				"_type": "Prodivnet::Groups::BlockTextWithImageSmall",
+				"title": "Local Chapter Spotlight",
+				"content": "<b>NYC Chapter</b><br>With over 1,200 members, we are able to host creative and interactive events every month that help our members grow professionally. This chapter is constantly seeking new opportunities for our members.",
+				"image_filename": "66142_828082443904031_2726536289820413306_n.jpg",
+				"updated_at": {
+					"$date": "2015-02-09T18:56:29.272-0600"
+				},
+				"created_at": {
+					"$date": "2015-02-09T18:56:29.272-0600"
+				}
+			},
+			{
+				"_id": {
+					"$oid": "54d9573ba91e142a5f000037"
+				},
+				"position": 2,
+				"_type": "Prodivnet::Groups::BlockMembers",
+				"title": "Presidents",
+				"updated_at": {
+					"$date": "2015-02-09T18:56:29.273-0600"
+				},
+				"created_at": {
+					"$date": "2015-02-09T18:56:29.273-0600"
+				}
+			},
+			{
+				"_id": {
+					"$oid": "54d9573ba91e142a5f000038"
+				},
+				"position": 3,
+				"_type": "Prodivnet::Groups::BlockTextWithImageSmall",
+				"title": "President Spotlight",
+				"content": "<b>My name is Louise Newsome.</b><br> I am the Principal of Newway LLC, a company which provides complete design, construction, technology and relocation services to businesses across the county.",
+				"image_filename": "10422023_813777598667849_2492465880658064617_n.jpg",
+				"updated_at": {
+					"$date": "2015-02-09T18:56:29.274-0600"
+				},
+				"created_at": {
+					"$date": "2015-02-09T18:56:29.274-0600"
+				}
+			},
+			{
+				"_id": {
+					"$oid": "54d9573ba91e142a5f000039"
+				},
+				"position": 4,
+				"title": "National Events",
+				"_type": "Prodivnet::Groups::BlockEvents",
+				"updated_at": {
+					"$date": "2015-02-09T18:56:29.275-0600"
+				},
+				"created_at": {
+					"$date": "2015-02-09T18:56:29.275-0600"
+				}
+			},
+			{
+				"_id": {
+					"$oid": "54dbc5c8a91e14d8bf0002cd"
+				},
+				"position": 5,
+				"_type": "Prodivnet::Groups::BlockMultimedia",
+				"title": "Highlights",
+				"updated_at": {
+					"$date": "2015-02-11T15:12:41.078-0600"
+				},
+				"created_at": {
+					"$date": "2015-02-11T15:12:41.078-0600"
+				},
+				"items": [{
+						"_id": {
+							"$oid": "54dbc5c8a91e14d8bf0002ce"
+						},
+						"position": 0,
+						"caption": "2013 Conference",
+						"_type": "Prodivnet::Groups::MultimediaVideoItem",
+						"video_code": "http://vimeo.com/71422384"
+					},
+					{
+						"_id": {
+							"$oid": "54dbc5c8a91e14d8bf0002cf"
+						},
+						"position": 1,
+						"caption": "Luncheon",
+						"_type": "Prodivnet::Groups::MultimediaImageItem",
+						"image_filename": "NAPW082.jpg"
+					},
+					{
+						"_id": {
+							"$oid": "54dbc5c8a91e14d8bf0002d0"
+						},
+						"position": 2,
+						"caption": "2",
+						"_type": "Prodivnet::Groups::MultimediaImageItem",
+						"image_filename": "DSC01532.JPG"
+					},
+					{
+						"_id": {
+							"$oid": "54dbc5c8a91e14d8bf0002d1"
+						},
+						"position": 3,
+						"caption": "3",
+						"_type": "Prodivnet::Groups::MultimediaImageItem",
+						"image_filename": "485345273_JP_0214c_7DFAAE81725B45FDF7B207DAC5F479DB.JPG"
+					}
+				]
+			},
+			{
+				"_id": {
+					"$oid": "54dbc5c8a91e14d8bf0002d2"
+				},
+				"_type": "Prodivnet::Groups::BlockSmallText",
+				"content": "<p>Santos</p>\r\n\r\n<p><a href=\"mailto:sgonzalez@prodivnet.com?subject=Hello&amp;body=Hi\">Email Me Here</a></p>\r\n",
+				"created_at": {
+					"$date": "2015-02-11T15:12:41.079-0600"
+				},
+				"position": 6,
+				"title": "Presidents COntact Info",
+				"updated_at": {
+					"$date": "2015-02-27T12:36:43.527-0600"
+				}
+			}
+		],
+		"company_name": "DEMO PRES PAGE",
+		"contact": {
+			"_id": {
+				"$oid": "54d9573da91e142a5f00003b"
+			},
+			"addresses": [{
+				"_id": {
+					"$oid": "54d9573da91e142a5f00003c"
+				},
+				"i": 99,
+				"ct": "Nationwide",
+				"st": ""
+			}]
+		},
+		"created_at": {
+			"$date": "2015-02-09T18:56:29.277-0600"
+		},
+		"creator_id": {
+			"$oid": "541319817c794233e600042b"
+		},
+		"description": "A private group for only NAPW Local Chapter Presidents.",
+		"domain_ids": [{
+			"$oid": "54011578661ef758ca000001"
+		}],
+		"event_ids": [{
+				"$oid": "54e2bfe3a91e144c28000007"
+			},
+			{
+				"$oid": "545951ba790f3e911b000253"
+			},
+			{
+				"$oid": "545953dae647feed79000208"
+			},
+			{
+				"$oid": "5481e9007c7942ed490005e2"
+			},
+			{
+				"$oid": "5481ea21e647fe7d210003c5"
+			},
+			{
+				"$oid": "5481ec4d7c7942ed49000688"
+			},
+			{
+				"$oid": "5481ede2e647fe00e000068d"
+			},
+			{
+				"$oid": "5481f36b4e8ae6a88a0006ba"
+			},
+			{
+				"$oid": "5481f427e647fece9c0005fc"
+			},
+			{
+				"$oid": "54920dbf790f3e3b65000091"
+			},
+			{
+				"$oid": "5578431b4e8ae6a108000080"
+			}
+		],
+		"header_filename": "default-chapter-header-image.png",
+		"image_filename": "default-chapter-logo.png",
+		"is_chapter": false,
+		"is_factured_company": false,
+		"jobs": [],
+		"jobs_account": "",
+		"name": "DEMO PRES PAGE",
+		"name_lower": "demo pres page",
+		"not_searchable": true,
+		"not_show_feed": false,
+		"not_show_jobs": false,
+		"promoted_to_home_page": 0,
+		"status": "secret",
+		"tabs": ["feed",
+			"jobs",
+			"people"
+		],
+		"updated_at": {
+			"$date": "2015-06-05T10:27:26.976-0500"
+		}
+	}
+
+	,
+	{
+		"_id": {
+			"$oid": "55bb9a1b790f3e8d1f000197"
+		},
+		"_slugs": ["north-shore-chapter"],
+		"_type": "Prodivnet::Groups::Chapter",
+		"always_return": false,
+		"blocks": [{
+				"_id": {
+					"$oid": "5660ae6a5199852e0a00081a"
+				},
+				"_type": "Prodivnet::Groups::BlockActivityWall",
+				"title": "Activity Wall",
+				"position": 0,
+				"updated_at": {
+					"$date": "2015-12-03T15:04:42.064-0600"
+				},
+				"created_at": {
+					"$date": "2015-12-03T15:04:42.064-0600"
+				}
+			},
+			{
+				"_id": {
+					"$oid": "5660ae6a5199852e0a00081b"
+				},
+				"_type": "Prodivnet::Groups::BlockSmallText",
+				"position": 1,
+				"title": "Mission",
+				"content": "<b>NAPW Mission</b><br>NAPW provides an exclusive, highly advanced networking forum to successful businesswomen and entrepreneurs. <br><br><b>NAPW Foundation Mission</b><br>The NAPW Foundation mission is to make a difference in the lives of women and girls through service, sisterhood and self-help.",
+				"updated_at": {
+					"$date": "2015-12-03T15:04:42.065-0600"
+				},
+				"created_at": {
+					"$date": "2015-12-03T15:04:42.065-0600"
+				}
+			},
+			{
+				"_id": {
+					"$oid": "5660ae6a5199852e0a00081c"
+				},
+				"_type": "Prodivnet::Groups::BlockMembers",
+				"position": 2,
+				"title": "Chapter Members",
+				"updated_at": {
+					"$date": "2015-12-03T15:04:42.065-0600"
+				},
+				"created_at": {
+					"$date": "2015-12-03T15:04:42.065-0600"
+				}
+			},
+			{
+				"_id": {
+					"$oid": "5660ae6a5199852e0a00081d"
+				},
+				"_type": "Prodivnet::Groups::BlockEvents",
+				"position": 3,
+				"title": "Events",
+				"updated_at": {
+					"$date": "2015-12-03T15:04:42.066-0600"
+				},
+				"created_at": {
+					"$date": "2015-12-03T15:04:42.066-0600"
+				}
+			},
+			{
+				"_id": {
+					"$oid": "5660ae6a5199852e0a00081e"
+				},
+				"_type": "Prodivnet::Groups::BlockJobs",
+				"position": 4,
+				"title": "Career Opportunities",
+				"updated_at": {
+					"$date": "2015-12-03T15:04:42.067-0600"
+				},
+				"created_at": {
+					"$date": "2015-12-03T15:04:42.067-0600"
+				}
+			}
+		],
+		"company_name": "",
+		"contact": {
+			"_id": {
+				"$oid": "5660ae6a5199852e0a000820"
+			},
+			"addresses": [{
+				"_id": {
+					"$oid": "5660ae6a5199852e0a000821"
+				},
+				"i": 99,
+				"ct": "North Shore",
+				"st": "IL"
+			}]
+		},
+		"created_at": {
+			"$date": "2015-12-03T15:04:42.068-0600"
+		},
+		"creator_id": {
+			"$oid": "541319817c794233e600042b"
+		},
+		"description": "Providing a valuable forum to promote your business, product or service, share ideas, experiences and resources.",
+		"domain_ids": [{
+			"$oid": "54011578661ef758ca000001"
+		}],
+		"header_filename": "header_87837194.jpg",
+		"image_filename": "local_chapter.jpg",
+		"is_chapter": false,
+		"is_factured_company": false,
+		"jobs": [],
+		"jobs_account": "",
+		"name": "North Shore Chapter",
+		"name_lower": "north shore chapter",
+		"not_searchable": false,
+		"not_show_feed": false,
+		"not_show_jobs": false,
+		"promoted_to_home_page": 0,
+		"social_widget_position": "bottom",
+		"status": "active",
+		"tabs": ["feed",
+			"jobs",
+			"people"
+		],
+		"updated_at": {
+			"$date": "2016-11-09T16:29:24.082-0600"
+		}
+	}
+
+	,
+	{
+		"_id": {
+			"$oid": "54dd14a344a5cede55000343"
+		},
+		"_slugs": ["everett-chapter"],
+		"_type": "Prodivnet::Groups::Chapter",
+		"always_return": false,
+		"blocks": [{
+				"_id": {
+					"$oid": "54dd171244a5cede55000658"
+				},
+				"title": "Activity Wall",
+				"position": 0,
+				"_type": "Prodivnet::Groups::BlockActivityWall",
+				"updated_at": {
+					"$date": "2015-02-12T15:11:46.297-0600"
+				},
+				"created_at": {
+					"$date": "2015-02-12T15:11:46.297-0600"
+				}
+			},
+			{
+				"_id": {
+					"$oid": "54dd171244a5cede55000659"
+				},
+				"position": 1,
+				"title": "Mission",
+				"content": "<b>NAPW Mission</b><br>NAPW provides an exclusive, highly advanced networking forum to successful businesswomen and entrepreneurs. <br><br><b>NAPW Foundation Mission</b><br>The NAPW Foundation mission is to make a difference in the lives of women and girls through service, sisterhood and self-help.",
+				"_type": "Prodivnet::Groups::BlockSmallText",
+				"updated_at": {
+					"$date": "2015-02-12T15:11:46.298-0600"
+				},
+				"created_at": {
+					"$date": "2015-02-12T15:11:46.298-0600"
+				}
+			},
+			{
+				"_id": {
+					"$oid": "54dd171244a5cede5500065a"
+				},
+				"position": 2,
+				"title": "Chapter Members",
+				"_type": "Prodivnet::Groups::BlockMembers",
+				"updated_at": {
+					"$date": "2015-02-12T15:11:46.298-0600"
+				},
+				"created_at": {
+					"$date": "2015-02-12T15:11:46.298-0600"
+				}
+			},
+			{
+				"_id": {
+					"$oid": "54dd171244a5cede5500065b"
+				},
+				"position": 3,
+				"title": "Events",
+				"_type": "Prodivnet::Groups::BlockEvents",
+				"updated_at": {
+					"$date": "2015-02-12T15:11:46.298-0600"
+				},
+				"created_at": {
+					"$date": "2015-02-12T15:11:46.298-0600"
+				}
+			},
+			{
+				"_id": {
+					"$oid": "5845b23e3bc7a855bf0003c5"
+				},
+				"_type": "Prodivnet::Groups::BlockCustom",
+				"position": 4,
+				"title": "Leadership Team Information:",
+				"content": "<p>President: Sandi MacCalla</p>\r\n\r\n<p>Email:Sandi@etiquetteforyou.com</p>\r\n\r\n<p>Phone: 425-209-9952</p>\r\n",
+				"updated_at": {
+					"$date": "2016-12-05T12:30:22.696-0600"
+				},
+				"created_at": {
+					"$date": "2016-12-05T12:30:22.696-0600"
+				}
+			}
+		],
+		"company_name": "",
+		"contact": {
+			"_id": {
+				"$oid": "54dd171244a5cede5500065e"
+			},
+			"addresses": [{
+				"_id": {
+					"$oid": "54dd1fbc44a5cede55000ab8"
+				},
+				"i": 99,
+				"ct": "Everett",
+				"st": "WA",
+				"zp": "98203",
+				"cc": "US"
+			}]
+		},
+		"created_at": {
+			"$date": "2015-02-12T15:11:46.299-0600"
+		},
+		"creator_id": {
+			"$oid": "54da28c8a91e141d180001e3"
+		},
+		"description": "Providing a valuable forum to promote your business, product or service, share ideas, experiences and resources.",
+		"domain_ids": [{
+			"$oid": "54011578661ef758ca000001"
+		}],
+		"event_ids": [{
+				"$oid": "54e7d0193d73cec4aa00002f"
+			},
+			{
+				"$oid": "54e7d1920631dfbbe9000051"
+			},
+			{
+				"$oid": "5553f3b3028863f73c00127e"
+			},
+			{
+				"$oid": "5578431b4e8ae6a108000080"
+			},
+			{
+				"$oid": "58d2ff4347b8dca1af000111"
+			},
+			{
+				"$oid": "58daa305fd24c66a930001a6"
+			},
+			{
+				"$oid": "58dc94494c37cbc8570003c3"
+			},
+			{
+				"$oid": "58f59e67d1b1d52e3a0001fe"
+			},
+			{
+				"$oid": "593227554c37cb92e2000185"
+			},
+			{
+				"$oid": "595c33f047b8dc6e18000183"
+			},
+			{
+				"$oid": "595c36f1d1b1d54ac2000004"
+			},
+			{
+				"$oid": "595c38343bc7a8e9b4000028"
+			},
+			{
+				"$oid": "597ffde54c37cb6f43000033"
+			},
+			{
+				"$oid": "599a1da5fd24c6c81b000029"
+			},
+			{
+				"$oid": "59c49b314c37cb072a000070"
+			},
+			{
+				"$oid": "59c55d4847b8dc01b400006b"
+			}
+		],
+		"group_industry_ids": [],
+		"header_filename": "Everett-Flower.jpg",
+		"image_filename": "local_chapter.jpg",
+		"is_chapter": false,
+		"is_factured_company": false,
+		"jobs": [],
+		"jobs_account": "",
+		"name": "Everett Chapter",
+		"name_lower": "everett chapter",
+		"not_searchable": false,
+		"not_show_feed": false,
+		"not_show_jobs": false,
+		"old_chapter_id": "252",
+		"promoted_to_home_page": 0,
+		"social_widget_position": "top",
+		"status": "active",
+		"tabs": ["feed",
+			"jobs",
+			"people"
+		],
+		"updated_at": {
+			"$date": "2017-03-29T15:08:25.784-0500"
+		}
+	}
+]

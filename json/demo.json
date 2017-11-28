@@ -1,0 +1,56 @@
+{
+    "MySQL": {
+        "Server": "(server)",
+        "Username": "(user)",
+        "Password": "(pwd)",
+        "DatabaseName": "(dbname)"
+    },
+    "Ftp": {
+        "Server": "(server)",
+        "Username": "(user)",
+        "Password": "(pwd)",
+        "RootFolder": "(rf)"
+    },
+    "BasePath": "../../bin/",
+    "NotesAppPath": "notas",
+    "SearchAppPath": "buscar",
+    "BaseUrl": "http:\/\/montemaiztusitio.com.ar",
+    "InitialExtensions": [
+        "nem.mysqlhandler",
+        "nem.string",
+        "nem.colour",
+        "nem.filesystem",
+        "nem.rss",
+        "nem.date",
+        "nem.template",
+        "nem.media",
+        "nem.measuring",
+        "nem.weather",
+        "nem.currency"
+    ],
+    "MediaPath": "media",
+    "MediaGalleriesTable": "journal_media_galleries",
+    "MediaTable": "journal_media",
+    "Journal": {
+        "AllowedAdFileFormats": [
+            "flv:1",
+            "jpg:2",
+            "gif:3",
+            "png:4",
+            "swf:5"
+        ],
+        "AdColumnId": "3",
+        "RSSLinkFormat": "%DOMAIN%\/notas\/%YEAR%-%MONTH%-%DAY%\/%TITLE%/",
+        "FrontendLayout": "Flat",
+        "AdPath": "ad",
+        "SiteTitle": "Monte Maíz: Tu Sitio",
+        "GlobalSiteDescription": "Periódico local de Monte Maíz.",
+        "MoreInfoAt": "Más información aquí, en el Periódico local de Monte Maíz.",
+        "TemplatePath": "templates",
+        "WeatherSource": "accuweather:SAM|AR|AR005|MONTE MAIZ",
+        "WeatherMeasureType": "1",
+        "CurrencySource": "cotizacion-monedas:Dolar|Euro|Real",
+        "TimesSingular": "vez",
+        "TimesPlural": "veces"
+    }
+}

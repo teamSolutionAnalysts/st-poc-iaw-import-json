@@ -1,0 +1,121 @@
+[{
+		"_id": {
+			"$oid": "59df7d8bd1b1d52603000048"
+		},
+		"status": "accepted",
+		"old_data": {
+			"imported": true
+		},
+		"type": "member",
+		"_type": "GroupMembership",
+		"group_id": {
+			"$oid": "54dd189644a5cede55000865"
+		},
+		"featured": false,
+		"user_id": {
+			"$oid": "59df7bdcfd24c632f400013a"
+		},
+		"updated_at": {
+			"$date": "2017-10-12T09:34:51.117-0500"
+		},
+		"created_at": {
+			"$date": "2017-10-12T09:34:51.117-0500"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "59df7d89d68ac37337000005"
+		},
+		"status": "accepted",
+		"old_data": {
+			"imported": true
+		},
+		"type": "member",
+		"_type": "GroupMembership",
+		"group_id": {
+			"$oid": "54dd189644a5cede55000865"
+		},
+		"featured": false,
+		"user_id": {
+			"$oid": "59df7bdcfd24c632f400013b"
+		},
+		"updated_at": {
+			"$date": "2017-10-12T09:34:49.805-0500"
+		},
+		"created_at": {
+			"$date": "2017-10-12T09:34:49.805-0500"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "59df7d8bd68ac36cad00003c"
+		},
+		"status": "accepted",
+		"old_data": {
+			"imported": true
+		},
+		"type": "member",
+		"_type": "GroupMembership",
+		"group_id": {
+			"$oid": "54dd14a344a5cede55000343"
+		},
+		"featured": false,
+		"user_id": {
+			"$oid": "59df7bdcfd24c632f400013c"
+		},
+		"updated_at": {
+			"$date": "2017-10-12T09:34:51.531-0500"
+		},
+		"created_at": {
+			"$date": "2017-10-12T09:34:51.531-0500"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "59df7d893bc7a8575b000014"
+		},
+		"status": "accepted",
+		"old_data": {
+			"imported": true
+		},
+		"type": "member",
+		"_type": "GroupMembership",
+		"group_id": {
+			"$oid": "54dd14a344a5cede55000343"
+		},
+		"featured": false,
+		"user_id": {
+			"$oid": "59df7bdcfd24c632f400013d"
+		},
+		"updated_at": {
+			"$date": "2017-10-12T09:34:49.833-0500"
+		},
+		"created_at": {
+			"$date": "2017-10-12T09:34:49.833-0500"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "55bb9a1b790f3e8d1f000197"
+		},
+		"status": "accepted",
+		"old_data": {
+			"imported": true
+		},
+		"type": "member",
+		"_type": "GroupMembership",
+		"group_id": {
+			"$oid": "54dd14a344a5cede55000343"
+		},
+		"featured": false,
+		"user_id": {
+			"$oid": "59df7bdcfd24c632f400013e"
+		},
+		"updated_at": {
+			"$date": "2017-10-12T09:34:50.492-0500"
+		},
+		"created_at": {
+			"$date": "2017-10-12T09:34:50.492-0500"
+		}
+	}
+]

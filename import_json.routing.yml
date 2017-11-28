@@ -1,0 +1,15 @@
+import_json.content:
+  path: '/import-data'
+  defaults:
+    _controller: '\Drupal\import_json\Controller\import_json::content'
+    _title: 'Import All content'
+  requirements:
+    _permission: 'access content'
+import_json.batch_form:
+  path: '/import-json/batch'
+  defaults:
+    _form: '\Drupal\import_json\Form\batchForm'
+    _title: 'Json Batch'
+  requirements:
+    _permission: 'access content'
+		
