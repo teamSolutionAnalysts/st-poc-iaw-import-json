@@ -11,5 +11,4 @@ import_json.batch_form:
     _form: '\Drupal\import_json\Form\batchForm'
     _title: 'Json Batch'
   requirements:
-    _permission: 'access content'
-		
+    _permission: 'access content'	

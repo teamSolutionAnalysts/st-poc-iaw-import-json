@@ -6,9 +6,14 @@ use Drupal\Core\Controller\ControllerBase;
 use Drupal\Component\Serialization\Json;
 use Drupal\user\Plugin\views\argument_default;
 use Drupal\group\Entity\Group;
-//use \Drupal\group\Entity\Group;
-use \Drupal\file\Entity\File;
-use \Drupal\user\Entity\User;
+use Drupal\file\Entity\File;
+use Drupal\user\Entity\User;
+use Drupal\private_message\Entity\PrivateMessage;
+use Drupal\private_message\Entity\PrivateMessageThread;
+// To provide array functionality of core php in drupal.
+/* === === === === */
+use Zend\StdLib\ArrayUtils;
+/* === === === === */
 
 class import_json extends ControllerBase {
 
@@ -18,7 +23,7 @@ class import_json extends ControllerBase {
    * @return array
    */
   public function content() {
-	
+		
 		// Path for module file.
 		$module_path = drupal_get_path('module','import_json');
 
@@ -29,6 +34,7 @@ class import_json extends ControllerBase {
 		
 		foreach($member_json_array_data as $member_single_data){
 			
+			//var_dump(user_load_by_mail($mail));
 			
 			if(!user_load_by_mail($member_single_data['email'])){
 
@@ -57,6 +63,7 @@ class import_json extends ControllerBase {
 					]);
 				}
 
+//				$profile->set('field_user_oid', $member_single_data['_id']['$oid']);
 				$profile->set('field_profile_first_name', $member_single_data['fn']);
 				$profile->set('field_profile_last_name', $member_single_data['ln']);
 				$profile->field_profile_address->country_code = $member_single_data['contact']['addresses'][0]['cc'];
@@ -138,17 +145,16 @@ class import_json extends ControllerBase {
 			$existing_group_member_query->condition('field_oid', $group_member_single['group_id']['$oid']);
 			$group_id_with_oid = $existing_group_member_query->execute();
 			
-			
 			$loaded_group = array();
 			foreach($group_id_with_oid as $gid_single){
 				$loaded_group = Group::load($gid_single);
 			}
 
-			
 			// Load user data.
 			$existing_user_query = \Drupal::entityQuery('user');
 			$existing_user_query->condition('field_user_oid', $group_member_single['user_id']['$oid']);
 			$user_id_with_oid = $existing_user_query->execute();
+			
 			
 			foreach($user_id_with_oid as $uid_single){
 				$loaded_user_data = User::load($uid_single);
@@ -159,7 +165,51 @@ class import_json extends ControllerBase {
 			}
 			
 		}
-	
+		
+		
+		// Adding messages.
+		$msg_json_path = $module_path . '/json/export_napw_messages.json';	
+		$msg_json_data = file_get_contents($msg_json_path);
+		$msg_json_array_data = Json::decode( $msg_json_data, true );
+		
+		
+		foreach($msg_json_array_data as $key => $msg_single_data){
+			
+			if(!empty($msg_single_data['sender_id']['$oid'])){	
+				$owner_id_query = \Drupal::entityQuery('user');
+				$owner_id_query->condition('field_user_oid', $msg_single_data['sender_id']['$oid']);
+				$owner_id_with_oid = $owner_id_query->execute();
+
+				// Add messages. 
+				$message_data = PrivateMessage::create([
+					'owner' => $owner_id_with_oid,
+					'field_subject' => $msg_single_data['subject'],
+					'message' => 	[[
+													'value' => $msg_single_data['body'],
+													'format' => 'full_html',
+												]],
+				]);
+			
+				$message_data->save();
+				
+				$reciver_ids_merge = array();
+				foreach($msg_single_data['receiver_ids'] as $receiver_id){
+					$reciver_id_query = \Drupal::entityQuery('user');
+					$reciver_id_query->condition('field_user_oid', $receiver_id['$oid']);
+					$reciver_ids = $reciver_id_query->execute();
+					$reciver_ids_merge = array_merge($reciver_ids_merge, $reciver_ids);
+				}
+				$reciver_owner_ids = array_merge($reciver_ids_merge,$owner_id_with_oid);
+
+				// Add message threads.
+				$message_thread_data = PrivateMessageThread::create([
+					'members' => $reciver_owner_ids,    
+					'private_messages' => $message_data->id(),
+				]);
+				$message_thread_data->save();
+			}
+		}
+		
     return array(
       '#type' => 'markup',
       '#markup' => $this->t('Data Imported!'),
