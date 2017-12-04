@@ -34,8 +34,6 @@ class import_json extends ControllerBase {
 		
 		foreach($member_json_array_data as $member_single_data){
 			
-			//var_dump(user_load_by_mail($mail));
-			
 			if(!user_load_by_mail($member_single_data['email'])){
 
 				$member_timestamp = strtotime($member_single_data['created_at']['$date']);
@@ -74,6 +72,7 @@ class import_json extends ControllerBase {
 				$profile->set('field_profile_phone_number', $member_single_data['contact']['phones'][0]['pn']);
 				$profile->set('field_profile_self_introduction', $member_single_data['experiences'][1]['ti']);
 
+				
 				// Save Image in entity.
 				$member_image_data = file_get_contents( $module_path . "/images/profile.jpg" );
 				$member_stored_image_data = file_save_data($member_image_data, "public://group_image.jpg", FILE_EXISTS_REPLACE);
@@ -94,8 +93,12 @@ class import_json extends ControllerBase {
     foreach($json_array_data as $group_data){
 				
 				// Save Image in entity.
-				$image_data = file_get_contents( $module_path . "/images/group_image.jpg" );
-				$stored_image_data = file_save_data($image_data, "public://styles/social_xx_large/public/2017-11/group_image.jpg", FILE_EXISTS_REPLACE);
+				// https://s3.amazonaws.com/buzzbomb_production/uploads/chapter	
+				// $image_data = file_get_contents( $module_path . "/images/group_image.jpg" );
+				$image_data = $stored_image_data = "";
+				$image_data = file_get_contents( 'https://s3.amazonaws.com/buzzbomb_production/uploads/chapter/'. $group_data['_id']['$oid'] . '/header_' . $group_data['header_filename'] );
+				$stored_image_data = file_save_data($image_data, "public://styles/social_xx_large/public/2017-11/header_". $group_data['header_filename'] , FILE_EXISTS_REPLACE);
+
 			
 				//To check wheter data is already inserted or not.
 				$existing_group_query = \Drupal::entityQuery('group');
